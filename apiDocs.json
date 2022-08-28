@@ -1,0 +1,12 @@
+{
+    "/":"GET : api docs",
+    "/product":"GET : get all products",
+    "/product/:productId":"GET : get product by product id",
+    "/product/new":"POST : create a new product (in request body keys required for creation of new product are 'name' and 'price')",
+    "/product/:productId":"PUT : update product (in request body keys required for creation of new product are 'name' and/or 'price')",
+    "/product/:productId":"DELETE : delete product",
+    "/review/new/:productId":"POST : create a new review for a Product (in request body key required for creation of new review is 'description')",
+    "/review/:reviewId":"DELETE : delete a review",
+    "/review/:productId":"GET : get all reviews of a product by product id (VIRTUAL POPULATING the REVIEWS)",
+    "link to Postman Collection":"https://www.getpostman.com/collections/6554a2f664cc5313de2c"
+}
